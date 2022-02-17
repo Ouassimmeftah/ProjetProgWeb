@@ -1,36 +1,6 @@
-#hand {
-	text-align: center;
-	background-color: #008800;
-	position: absolute;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	border-radius: 5px;
-	bottom: 1em;
-	width: 600px;
-	height: 200px;
-}
 
-#deal {
-	text-align: center;
-	background-color: #008800;
-	border-radius: 5px;
-	position: absolute;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	bottom: 1em;
-	width: 190px;
-	height: 200px;
-	right: 1em;
-}
 
-.card {
-	display: inline-block;
-	border: 1px solid #000000;
-	border-radius: 5px;
-	width: 150px;
-	height: 200px;
-}
+body {
+	background-color: #427e60; 
 
-#hand .card + .card {
-	margin-left: -75px;
 }
