@@ -8,6 +8,8 @@
 	
 </head>
 
+<body> 
+
 <?php
 /*
 Page: connexion.php
@@ -43,5 +45,12 @@ if(isset($_POST['connexion'])){
         }
     
 ?>
+
+<form method="POST" action="debut.php">
+	<input type="submit" name="retour" />
+
+</form>
+
+</body>
 
 </html>
